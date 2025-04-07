@@ -1,0 +1,41 @@
+body {
+
+    background-color: hsl(209, 34%, 51%);
+
+    font-size: 100%;
+}
+
+.box-blue {
+
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(212, 181, 3);
+    padding-top: 20px;
+    border-radius: 50cm;
+}
+.box-red {
+
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(67, 17, 231);
+    padding-top: 20px;
+    border-radius: 50cm;
+}
+
+.box-green {
+
+    width: 100px;
+    height: 100px;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: rgb(202, 15, 15);
+    padding-top: 20px;
+    border-radius: 50cm;
+}
