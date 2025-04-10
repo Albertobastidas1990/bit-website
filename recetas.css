@@ -4,8 +4,17 @@ body {
 
     font-style: italic;
 
-    color: rgb(128, 190, 190);
+    font-weight: bold;
 
     font-size:larger;
+
+    color: rgb(5, 108, 108);
+
+    size: 200px;
+}
+
+div { 
+
+    color: black;
 }
 

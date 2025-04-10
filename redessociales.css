@@ -1,8 +1,9 @@
 body {
 
-    background-color: rgb(63, 146, 198);
+    background-image: linear-gradient(black, rgb(7, 7, 155));
 
-    color: rgb(0, 0, 0);
+    color: rgb(207, 139, 139);
 
     font-size: larger;
+
 }

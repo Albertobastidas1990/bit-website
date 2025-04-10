@@ -1,0 +1,14 @@
+body{
+
+background-color: aqua;
+
+    button {
+
+        color: red;
+    }
+
+    .cuadro {
+
+        background-color: red;
+    }
+}
