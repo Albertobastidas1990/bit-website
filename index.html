@@ -1,34 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <title>Alberto Andres Bastidas Mendez</title>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/jpg" href="./bit-website1/assets/foto alberto.jpg">
+    <title>Alberto Andrés Bastidas Méndez</title>
     <style>
+     /*
+      - Viewport
+      - Desktop First
+      BREAKPOINT
+      * Extra extra large >=1400px
+      * Extra large <=1200px
+      * Large <= 992px
+      * Medium <= 768px
+      * Small <= 576px
+      * X-Small <576px
+      */
+      h1,h2,h3 {
+        background-color: black;
+        color: white;
+        padding: 32px;
+        height: 15px;
+      }
+      button {
+        background-color: rgb(213, 84, 84);
+      }
+      table,th,td {
 
+        border: 5px solid black;
+        border-collapse: collapse;
+        background-color: rgb(85, 44, 44);
+        color: black;
+      }
+      
+      @media screen and (min-width: 1201px) and (max-width:1399px) {
+        h1,h2,h3 {
+          background-color: blue;
+          color: rgb(29, 132, 58);
+        }
+        button {
+          background-color: yellow;
+        }
         table,th,td {
 
-            border: 5px solid black;
-            border-collapse: collapse;
-            background-color: rgb(224, 117, 117);
-        }
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(117, 119, 224);
+      }
+    }
 
-        th,td {
-            padding: 5px;
+      @media screen and (max-width: 1200px) {
+        h1,h2,h3 {
+          background-color: rgb(207, 90, 90);
+          color: black;
         }
+        button {
+          background-color: rgb(46, 174, 110);
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(24, 91, 14);
+
+      }
+    }
+
+      @media screen and (max-width: 992px) {
+        h1,h2,h3 {
+          background-color: green;
+          color: red ;
+        }
+        button {
+          background-color: rgb(123, 148, 86)
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(210, 224, 117);
+      
+      }
+    }
+
+      @media screen and (max-width: 768px) {
+        h1,h2,h3 {
+          background-color: purple;
+          color: rgb(255, 152, 25);
+        }
+        button {
+          background-color: antiquewhite;
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(108, 250, 153);
+      
+      }
+    }
+
+      @media screen and (max-width: 576px) {
+        h1,h2,h3 {
+          background-color: brown;
+          color: yellow;
+        }
+        button {
+          background-color: rgb(202, 193, 25);
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: #2fe3ff;
+      
+      }
+    }
+
+    @media screen and (min-width: 160px) and (max-width:320px) {
+      h1,h2,h3 {
+        background-color: brown;
+        color: yellow;
+        height: 100px;
+      }
+      button {
+        background-color: rgb(55, 53, 11);
+      }
+      table,th,td {
+
+        border: 5px solid black;
+        border-collapse: collapse;
+        background-color: rgb(255, 47, 186);
+    
+    }
+  }
+
+
+      table,th,td {
+
+        border: 5px solid black;
+        border-collapse: collapse;
+        background-color: rgb(224, 117, 117);
+    }
+
+    th,td {
+        padding: 5px;
+    }
 
     </style>
 
-</head>
-<>
+    <body>  
     <header id="top">
 
 
         <h1>Hola a todos bienvenidos a mi página web</h1>
-        <h2>mi nombre es  Alberto Andrés Bastidas Méndez</h2>
-        <h3>En este espacio les contaré un poco sobre mí</h3>
+        <h2>Mi nombre es Alberto Andrés Bastidas </h2>
 
     </header>
 
@@ -42,20 +170,27 @@
 
         <hr color="black">
 
+        <a href="https://chatwith.io/s/573059441403"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" color="green" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+        </svg></a>
 
-        <a href="hobbies.html"> <button>Hobbies</button></a>
+        <br>
+
+            <hr color="black">
+
+            <a href="hobbies.html"> <button>Hobbies</button></a>
 
         <br>
 
             <hr color="black">
 
-        <a href="recetas.html"> <button>Recetas</button></a>
-
-        <br>
-
-            <hr color="black">
+            <a href="recetas.html"> <button>Recetas</button></a>
    
-        <a href="redessociales.html"> <button>Redes Sociales</button></a>
+        <br>
+
+        <hr color="black">
+
+            <a href="redessociales.html"> <button>Redes Sociales</button></a>
 
     </nav>
 
@@ -94,16 +229,41 @@
 
 
       <hr color="black"> 
-      
+
+    <hr/>
     <br>
+
+    <h2>Que me gusta??</h2>
+
+    <ol>
+      <li>Deportes extremos</li>
+      <li>Aprender a programar</li>
+      <li>El ciclismo</li>
+      <li>Nadar en la piscina</li>
+      <li>Cocinar</li>
+      <li>Compartir en familia</li>
+    </ol>
+
+    <hr color="black">
+
+    <h2>Que NO me gusta??</h2>
+
+    <ol>
+      <li>El maltrato animal</li>
+      <li>Las guerras</li>
+      <li>Las personas falsas</li>
+      <li>Las mentiras</li>
+      <li>Las alturas</li>
+      <li>El mar de noche</li>
+    </ol>
+
+    <hr color="black">
 
     <p>Hace 6 años conocí al amor de mi vida, una hermosa mujer </p>
     <p>Profesional (nutrucionista), llena de amor para dar y con un corazón hermoso </p>
     <p>Me enseño a creer de nuevo en el amor y en mi mismo </p> 
-    <p>No podía dejar de hablar d ella y dedicarle este espacio a la 
+    <p>No podía dejar de hablar de ella y dedicarle este espacio a la 
     persona que mas amo </p>
-
-    <hr color="black">
 
     <div class="galeria">
 
@@ -117,45 +277,33 @@
 
     </div>
 
-        <hr color="black">
+    <hr color="black">
 
-    <p>Estos colores representan al país que me recibió con brazos abiertos</p> 
-    <p>Una familia hermosa y un mundo de posibilidades</p>
+        
+        <p>Santiago Bastidas</p>
+
+        <ul>
     
-    <p> Como pueden notar soy amante de los deportes extremos, me gusta aprender programación, me gusta mucho el ciclismo de rutas y montañas,
-        me gusta la piscina, me gusta cocinar, compartir en familia, entre otros.</p> 
+        <li>Tengo un hijo que le encanta el bmx, nadar el la piscina y jugar al futbol, es muy aventurero, es mi mejor amigo</li>
+    
+        <li>Tiene 3 años y medio de edad</li>
 
-    <p>  Tengo un hijo que le encanta el bmx, nadar el la piscina y jugar al futbol, es muy aventurero, es mi mejor amigo y la luz de mis ojos 
-        se llama Santiago Bastidas Baena tiene 3 años y medio y aqui les hablo mas de él.</p>
+        <li>Cumple años el 22 de septiembre</li>
+    
+        <li>Aqui está mi hijo en su escuela de bmx</li> 
+    
+        <li>El ama los animales tanto como yo, tiene ese sentido de pertenencia y rescate con ellos </li>
 
-    <p>  El está en una escuela de bmx</p>
+        </ul>
 
     <img src="./bit-website1/assets/bmx.jpg" alt="bmx" height="250px">
 
-
-    <p> Aqui está mi hijo en su escuela</p> 
-
-    <p> El ama los animales tanto como yo, tiene ese sentido de pertenencia y rescate con ellos </p>
-
-
-    <video autoplay loop controls>
-
-    <source src="./videos.mp4/bmx.mp4"
-    
-    width="20px";
-    
-    heigth="2opx" >
-
-    
-    </video>
-
-        <hr color="black">
+    <hr color="black">
 
         <h2>Más sobre mí</h2>
 
         <ul> 
             <li>Nací en Caracas, Venezuela</li>
-            <li>Tengo 34 años</li>
             <li>Vivo en Bogotá hace 6 años</li>
             <li>Tengo una esposa hermosa y un hijo bello y sano</li>
             <li>Tengo 3 perritas, una husky y dos perritas son rescatadas</li>
@@ -165,13 +313,17 @@
             <li>Mi familia ha sido hogar de paso de mas de 7 perritos</li>
             
         </ul>
+        <hr color="black">   
 
-        <hr color="black">    
+        <h2>Esta es mi ubicación en google maps</h2>
+        <iframe width="1176" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1176&amp;height=200&amp;hl=en&amp;q=calle%20169a%20-62%2087%20bogota+(Mi%20ubicaci%C3%B3n)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-website.com/es'>Maps Generator ES</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=5b1fa562b106abbb2ee713d9c0649b65ef22a1ec'></script>
+        <hr color="black">   
         
-        <p>Mi música Favorita</p>
+        <h3>Estas son mis canciones favoritas</h3>
 
         <table style="width: 100%;">
         <tr>
+                <th>Ranking</th>
                 <th> Genero musical </th>
                 <th> Canción </th>
                 <th> Interprete </th>
@@ -181,64 +333,66 @@
         </tr>
 
         <tr>
+                <td>1</td>
                 <td>Salsa</td>
                 <td>Vivir mi vida</td>
                 <td>Marck Anthony</td>
                 <td>2017</td>
-                <td><a href="https://www.youtube.com/watch?v=YXnjy5YlDwk">https://www.youtube.com/watch?v=YXnjy5YlDwk</a></td>
+                <td><a href="https://www.youtube.com/watch?v=YXnjy5YlDwk">Click Aquí</a></td>
         </tr>
 
         <tr>
+                <td>2</td>
                 <td>Pop en ingles</td>
                 <td>Smack that</td>
                 <td>Akon</td>
                 <td>2006</td>
-                <td><a href="https://www.youtube.com/watch?v=bKDdT_nyP54">https://www.youtube.com/watch?v=bKDdT_nyP54</a></td>
+                <td><a href="https://www.youtube.com/watch?v=bKDdT_nyP54">Click Aquí</a></td>
         </tr>
 
         <tr>
+                <td>3</td>
                 <td>Pop en ingles</td>
                 <td>Black and yellow<</td>
                 <td>Wiz Khalifa</td>
                 <td>2011</td>
-                <td><a href="https://www.youtube.com/watch?v=nWAGLkyxQG0">https://www.youtube.com/watch?v=nWAGLkyxQG0</a></td>
+                <td><a href="https://www.youtube.com/watch?v=nWAGLkyxQG0">Click Aquí</a></td>
         </tr>
 
         <tr>
+                <td>4</td>
                 <td>Pop en ingles</td>
                 <td>Rockstar</td>
                 <td>Post Malone ft. 21 Savage</td>
                 <td>2018</td>
-                <td><a href="https://www.youtube.com/watch?v=UceaB4D0jpo">https://www.youtube.com/watch?v=UceaB4D0jpo</a></td>
+                <td><a href="https://www.youtube.com/watch?v=UceaB4D0jpo">Click Aquí</a></td>
         </tr>
 
          <tr>
+                <td>5</td>
                 <td>Pop en ingles</td>
                 <td>Lose yourself</td>
                 <td>Eminem</td>
                 <td>2002</td>
-                <td><a href="https://www.youtube.com/watch?v=xFYQQPAOz7Y">https://www.youtube.com/watch?v=xFYQQPAOz7Y</a></td>
+                <td><a href="https://www.youtube.com/watch?v=xFYQQPAOz7Y">Click Aquí</a></td>
          </tr>
 
          <tr>
+                <td>6</td>
                 <td>Techno</td>
                 <td>Adagio for strings</td>
                 <td>Dj. Tiesto</td>
                 <td>2006</td>
-                <td><a href="https://www.youtube.com/watch?v=2EaE0_gQLw0">https://www.youtube.com/watch?v=2EaE0_gQLw0</a></td>
+                <td><a href="https://www.youtube.com/watch?v=2EaE0_gQLw0">Click Aquí</a></td>
         </tr>
 
 
 
         </table>
 
-        <hr color="black"> 
+    <hr color="black"> 
 
     <p>Tengo 3 perritos</p>
-
-    <svg class="w-[48px] h-[48px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M12.01 6.001C6.5 1 1 8 5.782 13.001L12.011 20l6.23-7C23 8 17.5 1 12.01 6.002Z"/>
-      </svg>
 
     <p>Una Husky Siberiana y una criollita rescatada de la calle</p>
 
@@ -250,6 +404,110 @@
 
         <hr color="black">
 
+        <legend>Registrate en mi página</legend>
+        
+        <hr color="black">
+
+        <fieldset class="cuadro">
+        
+    
+       <form>
+    
+        
+        <label for="name">Nombre</label>
+        <input type="Nombre" placeholder="Ingresa tu nombre">
+    
+        <br>
+    
+        <label for="lastname">Apellido</label>
+        <input type="Apellido" placeholder="Ingresa tu apellido">
+    
+        <br>
+    
+        <label for="name">Contraseña</label>
+        <input type="Password" placeholder="Contraseña">
+    
+        <br>
+    
+        <label for="name">Sexo</label>
+        <input type="Sexo" placeholder="Ingresa tu sexo">
+    
+        <select name="sexo">
+    
+    
+            <option value="Masculino">Masculino</option>
+            
+            <option value="Femenino">Femenino</option>
+    
+        </select>   
+    
+        <br>
+
+        <label for="name">teléfono</label>
+        <input type="tel" placeholder="Ingresa tu número">
+
+        <br>
+
+        <label for="name">Color</label>
+        <input type="Color" color="black" placeholder="Color">
+        
+    
+        <br>
+
+        <label for="name">Rango</label>
+        <input type="range" placeholder="Rango">
+        
+    
+        <br>
+
+        <label for="name">Hora</label>
+        <input type="Time" placeholder="Hora">
+        
+    
+        <br>
+
+        <label for="name">En que día estamos?</label>
+        <input type="Date" placeholder="Día">
+        
+    
+        <br>
+
+        <label for="name">Mes</label>
+        <input type="Month" placeholder="Mes">
+        
+    
+        <br>
+
+        <label for="name">Año</label>
+        <input type="year" placeholder="Año">
+        
+    
+        <br>
+    
+        
+        <label for="name">Correo</label>
+        <input type="Correo" placeholder="Ingresa tu correo">
+    
+        <br>
+
+        <label for="name">Contraseña</label>
+        <input type="Password" placeholder="Crea una contraseña">
+
+        <br>
+    
+        <label for="name">Comentarios</label>
+        <input type="Comentarios" placeholder="Comenta">
+        
+    
+        <br>
+    
+       <button> <a href="./registro.html">ACEPTAR</a></button>
+    
+       </form>
+    </fieldset>
+
+    <hr color="black">
+
 
         <footer id="bottom">
        
@@ -257,8 +515,6 @@
       </footer>
 
         <hr color="black">
-
-
 
     
 </body>

@@ -9,6 +9,138 @@
 
     <title>Document</title>
 
+    <style>
+
+         /*
+      - Viewport
+      - Desktop First
+      BREAKPOINT
+      * Extra extra large >=1400px
+      * Extra large <=1200px
+      * Large <= 992px
+      * Medium <= 768px
+      * Small <= 576px
+      * X-Small <576px
+      */
+      h1,h2,h3 {
+        background-color: black;
+        color: white;
+        padding: 32px;
+      }
+      button {
+        background-color: red;
+      }
+      table,th,td {
+
+        border: 5px solid black;
+        border-collapse: collapse;
+        background-color: rgb(233, 107, 107);
+      }
+      
+      @media screen and (min-width: 1201px) and (max-width:1399px) {
+        h1,h2,h3 {
+          background-color: blue;
+          color: rgb(29, 132, 58);
+        }
+        button {
+          background-color: yellow;
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(117, 119, 224);
+      }
+    }
+
+      @media screen and (max-width: 1200px) {
+        h1,h2,h3 {
+          background-color: rgb(233, 107, 107);
+          color: black;
+        }
+        button {
+          background-color: rgb(32, 208, 179);
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(24, 91, 14);
+
+      }
+    }
+
+      @media screen and (max-width: 992px) {
+        h1,h2,h3 {
+          background-color: green;
+          color: red ;
+        }
+        button {
+          background-color: rgb(123, 148, 86)
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(210, 224, 117);
+      
+      }
+    }
+
+      @media screen and (max-width: 768px) {
+        h1,h2,h3 {
+          background-color: purple;
+          color: rgb(255, 152, 25);
+        }
+        button {
+          background-color: antiquewhite;
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(108, 250, 153);
+      
+      }
+    }
+
+      @media screen and (max-width: 576px) {
+        h1,h2,h3 {
+          background-color: brown;
+          color: yellow;
+        }
+        button {
+          background-color: rgb(202, 193, 25);
+        }
+        table,th,td {
+
+          border: 5px solid black;
+          border-collapse: collapse;
+          background-color: rgb(47, 227, 255);
+      
+      }
+    }
+
+    @media screen and (min-width: 160px) and (max-width:320px) {
+      h1,h2,h3 {
+        background-color: brown;
+        color: yellow;
+      }
+      button {
+        background-color: rgb(55, 53, 11);
+      }
+      table,th,td {
+
+        border: 5px solid black;
+        border-collapse: collapse;
+        background-color: rgb(255, 47, 186);
+    
+    }
+  }
+
+
+    </style>
+
     <hr color="white">
 
     <h1> Mi comida favorita <svg class="w-[48px] h-[48px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24">
@@ -91,26 +223,26 @@
 
 <p>Para la masa</p>
 
-<li>1.Precalienta el horno a 200°C. Toma los ingredientes secos para la masa y mézclalos en un recipiente amplio. Realiza un hoyo en el centro de los ingredientes e incorpora los ingredientes líquidos a la masa y las especies. Mezcla bien y empieza amasar en el mismo recipiente. Si ves que la masa necesita más agua añade poco a poco más agua.
+<li>Precalienta el horno a 200°C. Toma los ingredientes secos para la masa y mézclalos en un recipiente amplio. Realiza un hoyo en el centro de los ingredientes e incorpora los ingredientes líquidos a la masa y las especies. Mezcla bien y empieza amasar en el mismo recipiente. Si ves que la masa necesita más agua añade poco a poco más agua.
     Deja reposar</li>        
 
 
 <br>
 
-<li>2.Retira del recipiente y continúa amasando la masa en el mesón enharinado, 
+<li>Retira del recipiente y continúa amasando la masa en el mesón enharinado, 
     amasa hasta que la masa se desprenda de tus manos y queda muy tersa. Cúbrela con
      una toalla limpia y deja reposar durante 2 horas.
     Para la salsa</li>
 
 <br>
  
-<li>3.Para la salsa, coloca todos los ingredientes en un sartén y cocina durante
+<li>Para la salsa, coloca todos los ingredientes en un sartén y cocina durante
      5 minutos espesando ligeramente la salsa. Enfría y reserva.
     Arma </li>
 
 <br>
 
-<li>4.Toma la masa reservada anteriormente y estírala en forma redonda del tamaño 
+<li>Toma la masa reservada anteriormente y estírala en forma redonda del tamaño 
     de tu molde. Coloca en la lata y pínchala con un cuchillo o palillo en toda
      la masa menos los bordes. Coloca la salsa sobre la masa esparciéndola sin 
      llegar a los bordes y coloca los toppings previamente cortados en pedazos, a tu gusto.
@@ -118,7 +250,7 @@
 
 <br>
 
-<li>5.Lleva la pizza al horno precalentado y hornea durante 10 a 15 minutos. Si
+<li>Lleva la pizza al horno precalentado y hornea durante 10 a 15 minutos. Si
      ves que se está tostando mucho retírala antes. Antes de servir coloca un 
      chorrito de aceite de oliva sobre la pizza.
 </li>
@@ -127,9 +259,7 @@
 </div>
 
     <br>
-
-
-    <p>Les presento mis platos favoritos</p>
+    
     <hr/>
     <section>
       <div class="container">

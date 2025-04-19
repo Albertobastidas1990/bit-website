@@ -1,8 +1,10 @@
 body {
 
-    background-image: linear-gradient( rgb(25, 76, 143), rgb(133, 173, 224));
+    background-image: linear-gradient(rgb(32, 30, 30), rgb(26, 26, 126));
 
     font-size: 100%;
+
+    color: rgb(169, 65, 65);
 
 
 }
@@ -91,6 +93,6 @@ img {
 }
 
 .cuadro {
-    background-color: rgb(92, 233, 63) ;
+    background-color: rgba(70, 136, 215, 0.852) ;
 }
 
