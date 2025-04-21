@@ -17,7 +17,7 @@ button {
 .galeria {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
 }
 
 .galeria img {
@@ -25,9 +25,9 @@ button {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 70px;
+    border-radius: 70px; 
     transform-style: preserve-3d;
-    animation: rotate 10s infinite linear;
+    animation: rotate 9s infinite linear;
 }
 
 @keyframes rotate {
