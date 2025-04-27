@@ -1,32 +1,15 @@
-# bit-website1
+# tittle
+Alberto Andrés Baastidas Méndez
 
-*position*
--top
-- letf
-- botton
-- right
+# description
 
-* Box model
-    * HTML tags
-    -Border
-    - Content
-    - Padding
-    - Margin
+Este es un proyecto que habla sobre mí, sobre mi hijo, sobre mi familia, sobre lo que 
+me gusta lo que no me gusta, mis hobbies, mi contacto personal y mucho más sobre mí
 
-* HTMl tags
+# Autor
 
-- Online
-- Block
-
-*  Ways to implement
-- Inline (Attribute) asignar una clase y un color
-- Internal (style tag) style en el header 
-- External (CSS file)
-
-* Selector
-- Simple (tags, id, class)
-- tags
-- ids
-- class
+Alberto Andrés Bastidas Méndez
 
 
+
+// agregar un enlace con un contacto del autor
