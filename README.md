@@ -1,5 +1,5 @@
 # tittle
-Alberto Andrés Baastidas Méndez
+Alberto Andrés Bastidas Méndez
 
 # description
 
